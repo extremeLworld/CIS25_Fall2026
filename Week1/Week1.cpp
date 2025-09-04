@@ -4,15 +4,21 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    cout << "Hello Inventory System!\n"; 
-	cout << "\tData Types:\n"; // t is a tab space and n is skip to the next line
-	cout << "Size of int: " << sizeof(int) << " bytes\n"; 
-	cout << "Size of float: " << sizeof(float) << " bytes\n"; 
-	cout << "Size of char: " << sizeof(char) << " bytes\n";
-	return 0;
-}
+int main() { 
+	string itemName; 
+	int quantity; 
+	float cost; 
+ 
+	cout << "Enter item name: "; 
+	cin >> itemName; 
+	cout << "Enter quantity: "; 
+	cin >> quantity; 
+	cout << "Enter cost: "; 
+	cin >> cost; 
+ 
+	cout << "Total cost for " << itemName << ": $" << (quantity * cost) << endl; 
+	return 0; 
+} 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
