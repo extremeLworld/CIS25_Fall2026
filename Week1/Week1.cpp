@@ -5,19 +5,27 @@
 using namespace std;
 
 int main() { 
-	string itemName; 
-	int quantity; 
-	float cost; 
- 
-	cout << "Enter item name: "; 
-	cin >> itemName; 
-	cout << "Enter quantity: "; 
-	cin >> quantity; 
-	cout << "Enter cost: "; 
-	cin >> cost; 
- 
-	cout << "Total cost for " << itemName << ": $" << (quantity * cost) << endl; 
-	return 0; 
+    float n1 = 0, n2 = 0, n3 = 0;
+
+    cout << "Enter three numbers: ";
+    cin >> n1 >> n2 >> n3;
+
+    
+    if (n3 >= n1 && n3 >= n2) {
+        cout << "Largest number: " << n3;
+
+        if (n2 >= n1 && n2 >= n3)
+        {
+            cout << "Largest number: " << n2;
+
+            if (n1 >= n2 && n1 >= n3)
+            {
+                cout << "Largest number: " << n1;
+            }
+        }
+    }
+        
+    return 0;
 } 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
