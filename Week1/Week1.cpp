@@ -2,31 +2,40 @@
 //
 
 #include <iostream>
+#include <string>
+#include "programheader.h"
 using namespace std;
 
-int main() { 
-    float n1 = 0, n2 = 0, n3 = 0;
 
-    cout << "Enter three numbers: ";
-    cin >> n1 >> n2 >> n3;
+void showMenu() {
+	cout << "1. Add\n2. Subtract\n3. Exit\n";
+}
+int main() {
+	int option;
+	int a, b;
+	do {
+		showMenu();
+		cin >> option;
 
-    
-    if (n3 >= n1 && n3 >= n2) {
-        cout << "Largest number: " << n3;
+		switch (option) {
+			case 1:
+				cout << "Enter in two values to add them.\n";
+				cin >> a >> b;
+				cout << "Result is " + to_string(add(a, b)) + ".\n";
+				break;
+			case 2:
+				cout << "Enter in two values to subtract them.\n";
+				cin >> a >> b;
+				cout << "The result is " + to_string(subtract(a, b)) + ".\n";
+				break;
+			default:
+				cout << "Exiting menu.";
+				return 0;
+		}
+	} while (option != 3);
+	return 0;
+}
 
-        if (n2 >= n1 && n2 >= n3)
-        {
-            cout << "Largest number: " << n2;
-
-            if (n1 >= n2 && n1 >= n3)
-            {
-                cout << "Largest number: " << n1;
-            }
-        }
-    }
-        
-    return 0;
-} 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

@@ -1,4 +1,5 @@
-Week 4 README
+Week 5 README
 
-In Week 4, the main file finds the largest out of the three numbers inputted by the user with a nested if statement.
-We practice debugging and fixing errors in code.
+In Week 5, the main file has a menu that demonstrates the usage of selecting an option to run a function.
+The menu has the options of adding two numbers and subtracting two numbers. Exiting the menu (and program is the last option.)
+This program uses a header file to store the menu functions, instead of keeping it in the main cpp file.
