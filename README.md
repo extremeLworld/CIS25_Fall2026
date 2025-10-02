@@ -1,5 +1,5 @@
-Week 5 README
+Week 6 README
 
-In Week 5, the main file has a menu that demonstrates the usage of selecting an option to run a function.
-The menu has the options of adding two numbers and subtracting two numbers. Exiting the menu (and program is the last option.)
-This program uses a header file to store the menu functions, instead of keeping it in the main cpp file.
+In Week 6, the main file utilizes fstream so that it can save and load data.
+This program asks for the name of a tool and the amount of it, and then prints it back.
+(Also the header file here is just a leftover from last week, it's not used here.)

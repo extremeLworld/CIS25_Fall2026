@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\Week1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A02F0444-102B-4443-BD3C-6F347C2171AD}|Week1.vcxproj|C:\\USERS\\ANNAC\\DOCUMENTS\\GITHUB\\CIS25_FALL2026\\WEEK1\\PROGRAMHEADER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A02F0444-102B-4443-BD3C-6F347C2171AD}|Week1.vcxproj|solutionrelative:PROGRAMHEADER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A02F0444-102B-4443-BD3C-6F347C2171AD}|Week1.vcxproj|C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\Week1\\Week1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A02F0444-102B-4443-BD3C-6F347C2171AD}|Week1.vcxproj|solutionrelative:Week1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "programheader.h",
+              "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\Week1\\programheader.h",
+              "RelativeDocumentMoniker": "programheader.h",
+              "ToolTip": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\Week1\\programheader.h",
+              "RelativeToolTip": "programheader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-02T04:45:21.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Week1.cpp",
               "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\Week1\\Week1.cpp",
               "RelativeDocumentMoniker": "Week1.cpp",
               "ToolTip": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\Week1\\Week1.cpp",
               "RelativeToolTip": "Week1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-19T00:04:55.936Z",
               "EditorCaption": ""

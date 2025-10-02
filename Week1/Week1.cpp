@@ -2,39 +2,58 @@
 //
 
 #include <iostream>
+#include <fstream>
 #include <string>
-#include "programheader.h"
 using namespace std;
 
+class Item {
+public:
+	string name;
+	int quantity;
+    
+    void saveToFile() {
+        ofstream out("items.txt");
+        if (out.is_open()) {
+            out << name << "," << quantity << endl;
+            out.close();
+            cout << "Item saved to file." << endl;
+        }
+        else {
+            cout << "Unable to open file for writing." << endl;
+        }
+    }
+    void loadFromFile() {
+        ifstream in("items.txt");
+        if (in.is_open()) {
+            string line;
+            while (getline(in, line)) {
+                cout << "File content: " << line << endl;
+            }
+            in.close();
+        }
+        else {
+            cout << "Unable to open file for reading." << endl;
+        }
+    }
+};
 
-void showMenu() {
-	cout << "1. Add\n2. Subtract\n3. Exit\n";
-}
 int main() {
-	int option;
-	int a, b;
-	do {
-		showMenu();
-		cin >> option;
+    Item tool;
+    
+    cout << "What is the name of the tool?\n";
+    cin >> tool.name;
+    cout << "How many of the tool?\n";
+    cin >> tool.quantity;
 
-		switch (option) {
-			case 1:
-				cout << "Enter in two values to add them.\n";
-				cin >> a >> b;
-				cout << "Result is " + to_string(add(a, b)) + ".\n";
-				break;
-			case 2:
-				cout << "Enter in two values to subtract them.\n";
-				cin >> a >> b;
-				cout << "The result is " + to_string(subtract(a, b)) + ".\n";
-				break;
-			default:
-				cout << "Exiting menu.";
-				return 0;
-		}
-	} while (option != 3);
-	return 0;
+
+    tool.saveToFile();
+    tool.loadFromFile();
+
+    return 0;
 }
+
+
+
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
