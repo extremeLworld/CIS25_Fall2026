@@ -6,48 +6,84 @@
 #include <string>
 using namespace std;
 
-class Item {
-public:
-	string name;
-	int quantity;
-    
-    void saveToFile() {
-        ofstream out("items.txt");
-        if (out.is_open()) {
-            out << name << "," << quantity << endl;
-            out.close();
-            cout << "Item saved to file." << endl;
-        }
-        else {
-            cout << "Unable to open file for writing." << endl;
-        }
-    }
-    void loadFromFile() {
-        ifstream in("items.txt");
-        if (in.is_open()) {
-            string line;
-            while (getline(in, line)) {
-                cout << "File content: " << line << endl;
-            }
-            in.close();
-        }
-        else {
-            cout << "Unable to open file for reading." << endl;
-        }
-    }
+struct Item {
+    int id;
+    string name;
 };
 
+int loadFromFile(Item* inventory, int maxNum) { //i know this works
+    int count = 0;
+
+    //cout << "maxNum is " << maxNum;
+    ifstream in("items.txt");
+    if (in.is_open()) {
+        string line;
+        while (getline(in, line) && count < maxNum) {
+            inventory[count].id = count + 1;
+            inventory[count].name = line;
+
+            count++;
+        }
+        in.close();
+    }
+    else {
+        cout << "Unable to open file for reading." << endl;
+    }
+
+    return count;
+}
+
+string binarySearcher(Item* inventory, int size, int id) {
+
+    int left = 0;
+    int right = size - 1;
+
+    while (left <= right) {
+        int mid = left + (right - left) / 2; // should be 50 if we're looking at 100
+
+        if (id == inventory[mid].id) {
+            return inventory[mid].name;
+        }
+        else if (id > inventory[mid].id) {
+            left = mid + 1; //search the right side
+        }
+        else {
+            right = mid - 1; //search the left side
+        }
+    }
+    return "";
+}
+
 int main() {
-    Item tool;
+    Item* inventory = new Item[100];
+    int size = loadFromFile(inventory, 100);
+    char choice;
+
+    //int arrSize = sizeof(inventory) / sizeof(inventory[0]); //i guess this thing doesn't work with what i wanna do
+    int userId;
+
+    string searchedItem;
     
-    cout << "What is the name of the tool?\n";
-    cin >> tool.name;
-    cout << "How many of the tool?\n";
-    cin >> tool.quantity;
 
+    do {
+        cout << "Which id do you want to look at? ";
+        cin >> userId;
 
-    tool.saveToFile();
-    tool.loadFromFile();
+        searchedItem = binarySearcher(inventory, size, userId);
+
+        if (searchedItem != "") {
+            cout << "The item at " << userId << " is " << searchedItem << ".\n";
+        }
+        else {
+            cout << "Item not found.";
+        }
+        cout << "Keep searching? (choose y for yes) ";
+        cin >> choice;
+
+    } while (choice == 'y' || choice == 'Y');
+
+    delete[] inventory;
+    cout << "Thanks!";
 
     return 0;
 }
