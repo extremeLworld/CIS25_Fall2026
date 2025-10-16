@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8743C8-9D35-4C49-9A25-48AC02453725}|GachaSim.vcxproj|C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D8743C8-9D35-4C49-9A25-48AC02453725}|GachaSim.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8743C8-9D35-4C49-9A25-48AC02453725}|GachaSim.vcxproj|C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\CardsetInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D8743C8-9D35-4C49-9A25-48AC02453725}|GachaSim.vcxproj|solutionrelative:CardsetInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8743C8-9D35-4C49-9A25-48AC02453725}|GachaSim.vcxproj|C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\CardsetInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D8743C8-9D35-4C49-9A25-48AC02453725}|GachaSim.vcxproj|solutionrelative:CardsetInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardsetInfo.cpp",
+              "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\CardsetInfo.cpp",
+              "RelativeDocumentMoniker": "CardsetInfo.cpp",
+              "ToolTip": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\CardsetInfo.cpp",
+              "RelativeToolTip": "CardsetInfo.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-16T06:20:49.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardsetInfo.h",
+              "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\CardsetInfo.h",
+              "RelativeDocumentMoniker": "CardsetInfo.h",
+              "ToolTip": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\CardsetInfo.h",
+              "RelativeToolTip": "CardsetInfo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-16T05:45:11.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\GachaSim\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-16T05:44:46.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

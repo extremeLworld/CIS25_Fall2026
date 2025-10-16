@@ -3,24 +3,29 @@
 #define CARDSETINFO_H
 
 #include <vector>
+#include <string>
 
+using namespace std;
 
 struct Card {
-	string id; //assuming we want different sets in the collection, perhaps it'd be better to keep the id as a string?
+
+	int id; //assuming we want different sets in the collection, perhaps it'd be better to keep the id as a string?
 	string rarity;
 	string name;
 
 };
 
 class Cardset {
+public:
 	vector<Card> cards;
 	string setName;
 
-	//assign rarity values here
-	float ssrRate = 0.05;
-	float srRate = 0.1;
-	float rRate = 0.25;
-	float cRate = 0.5;
+	float ssrRate;
+	float srRate;
+	float rRate;
+	float cRate;
+
+	//Cardset(string& setName, float ssr, float sr, float rr, float cr);
 };
 
 #endif

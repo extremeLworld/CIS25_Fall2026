@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include <"CardsetInfo.h">
+#include "CardsetInfo.h"
 
 using namespace std;
 
@@ -21,7 +21,8 @@ void loadSet(string setName, Cardset cardset) { // this will load the card value
 				temp.rarity = rarity;
 				temp.name = name;
 
-				cardset.cards.push_back(temp);
+				cardset.cards.push_back(temp); //why tf is this only happening once
+				cout << cardset.cards.back().id << " / " << cardset.cards.back().rarity << " / " << cardset.cards.back().name; //debug checkin line
 			}
 
 			in.close();
@@ -34,9 +35,18 @@ void loadSet(string setName, Cardset cardset) { // this will load the card value
 
 int main() {
 	Cardset tbhxCardset;
-	tbhxCardset.name = "TBHX";
+	tbhxCardset.setName = "TBHX";
+	tbhxCardset.ssrRate = 0.1;
+	tbhxCardset.srRate = 0.15;
+	tbhxCardset.rRate = 0.25;
+	tbhxCardset.cRate = 0.5;
 
 	loadSet("Set_TBHX.txt", tbhxCardset);
+
+	//for (Card card : tbhxCardset.cards) //print all the cards to make sure they show properly
+	//{
+	//	cout << tbhxCardset.setName << "-" << card.id << ": (" << card.rarity << ") " << card.name;
+	//}
 
 	return 0;
 }
