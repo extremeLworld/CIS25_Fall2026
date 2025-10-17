@@ -1,4 +1,6 @@
-﻿  main.cpp
-C:\Users\annac\Documents\GitHub\CIS25_Fall2026\GachaSim\main.cpp(39,24): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\annac\Documents\GitHub\CIS25_Fall2026\GachaSim\main.cpp(40,23): warning C4305: '=': truncation from 'double' to 'float'
+﻿  CardsetInfo.cpp
+  main.cpp
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\GachaSim\main.cpp(39,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\GachaSim\main.cpp(39,22): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
   GachaSim.vcxproj -> C:\Users\annac\Documents\GitHub\CIS25_Fall2026\GachaSim\x64\Debug\GachaSim.exe
