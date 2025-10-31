@@ -33,7 +33,7 @@ public:
 	vector<Card> cards;
 	string setName; //for some reason i can't pass the string through constructor so ill just leave it public	
 
-	Cardset(float ssr, float sr, float rr, float cr); //constructor
+	Cardset(float ssr, float sr, float rr, float cr); //constructor for the rarity rates ig
 };
 
 class Pack {

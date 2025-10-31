@@ -34,6 +34,8 @@ void loadSet(string setName, Cardset& cardset) { // this will load the card valu
 	}
 }
 
+
+
 int main() {
 	//set up part
 	Cardset tbhxCardset(0.1, 0.15, 0.25, 0.5); //suggested that the rates equal to 1 for readability
@@ -42,18 +44,43 @@ int main() {
 
 	loadSet("Set_TBHX.txt", tbhxCardset);
 
-	int spentMoney;
+	int spentMoney = 0;
+	int option;
 
-	tbhxPack.rollCards(tbhxCardset);
-	spentMoney = tbhxPack.getPrice();
-	cout << "You have spent $" << spentMoney << " so far.";
+	//the menu part :(
+	do {
+		cout << "Menu Options: \n1. Roll for cards\n2. View Collection\n3. Exit\n";
+		cin >> option;
+		switch (option) {
+			case 1:
+				tbhxPack.rollCards(tbhxCardset);
+				spentMoney += tbhxPack.getPrice();
+				cout << "You have spent $" << spentMoney << " so far.\n";
+			
+				char rollMenuOption;				
+				
+				cout << "Roll again? (y for yes)\n";
+				cin >> rollMenuOption;
 
-	//for (const auto& card : tbhxCardset.cards) //print all the cards to make sure they show properly
-	//{
-	//	cout << tbhxCardset.setName << "-" << card.id << ": (" << card.rarity << ") " << card.name << "\n";
-	//}
+				while (rollMenuOption == 'y') {
+					tbhxPack.rollCards(tbhxCardset);
+					spentMoney += tbhxPack.getPrice();
+					cout << "You have spent $" << spentMoney << " so far.\n";
+					//cout << "for loop happened\n";
 
+					cout << "Roll again? (y for yes)\n";
+					cin >> rollMenuOption;
+				}
 
+				break;
+			case 2:
+				cout << "Viewing collection not available yet :p, loop back";
+				break;
+			default:
+				cout << "Exiting program.\n";
+				return 0;
+		}
+	} while (option != 3);
 
 
 	return 0;
