@@ -1,0 +1,40 @@
+﻿  BankAccount.cpp
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.h(20,23): error C2061: syntax error: identifier 'string'
+  (compiling source file 'BankAccount.cpp')
+  
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.h(24,26): error C2061: syntax error: identifier 'string'
+  (compiling source file 'BankAccount.cpp')
+  
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(14,5): error C2660: 'BankAccount::saveTransaction': function does not take 2 arguments
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.h(24,10):
+      see declaration of 'BankAccount::saveTransaction'
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(14,5):
+      while trying to match the argument list '(const char [8], double)'
+  
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(17,19): error C2511: 'void BankAccount::makePurchase(std::string,double)': overloaded member function not found in 'BankAccount'
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.h(9,7):
+      see declaration of 'BankAccount'
+  
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(18,16): error C2597: illegal reference to non-static member 'BankAccount::balance'
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(18,16):
+      see declaration of 'BankAccount::balance'
+  
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(18,16): error C3867: 'BankAccount::balance': non-standard syntax; use '&' to create a pointer to member
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(18,16): error C2568: '>': unable to resolve function overload
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(22,9): error C2597: illegal reference to non-static member 'BankAccount::balance'
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.h(11,12):
+      see declaration of 'BankAccount::balance'
+  
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(24,9): error C2660: 'BankAccount::saveTransaction': function does not take 2 arguments
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.h(24,10):
+      see declaration of 'BankAccount::saveTransaction'
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(24,9):
+      while trying to match the argument list '(std::basic_string<char,std::char_traits<char>,std::allocator<char>>, double)'
+  
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.cpp(28,19): error C2511: 'void BankAccount::saveTransaction(std::string,double)': overloaded member function not found in 'BankAccount'
+      C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\BankAccount.h(9,7):
+      see declaration of 'BankAccount'
+  
+  main.cpp
+C:\Users\annac\Documents\GitHub\CIS25_Fall2026\midterm\main.cpp(4,10): error C1083: Cannot open include file: '"BankAccount.h"': No such file or directory
+  Generating Code...
