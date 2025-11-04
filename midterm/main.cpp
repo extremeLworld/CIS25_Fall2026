@@ -1,15 +1,15 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <"BankAccount.h">
+#include "BankAccount.h"
 using namespace std;
 
-
+BankAccount myAccount;
 
 int main() {
-    BankAccount myAccount;
+    
 
-    myAccount.deposit(100.00);
+    myAccount.deposit(30.00);
     myAccount.makePurchase("Coffee", 4.50);
     myAccount.makePurchase("Book", 25.00);
     myAccount.displayBalance();

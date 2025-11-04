@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43573308-F23B-4F2F-80FE-578386E89771}|midterm.vcxproj|C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43573308-F23B-4F2F-80FE-578386E89771}|midterm.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43573308-F23B-4F2F-80FE-578386E89771}|midterm.vcxproj|C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43573308-F23B-4F2F-80FE-578386E89771}|midterm.vcxproj|solutionrelative:BankAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43573308-F23B-4F2F-80FE-578386E89771}|midterm.vcxproj|C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\BankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43573308-F23B-4F2F-80FE-578386E89771}|midterm.vcxproj|solutionrelative:BankAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-04T06:57:17.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankAccount.h",
+              "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\BankAccount.h",
+              "RelativeDocumentMoniker": "BankAccount.h",
+              "ToolTip": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\BankAccount.h",
+              "RelativeToolTip": "BankAccount.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-04T06:57:14.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BankAccount.cpp",
               "DocumentMoniker": "C:\\Users\\annac\\Documents\\GitHub\\CIS25_Fall2026\\midterm\\BankAccount.cpp",
               "RelativeDocumentMoniker": "BankAccount.cpp",
