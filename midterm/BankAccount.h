@@ -5,14 +5,17 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
 class BankAccount {
 private:
     double balance;
+    
 
 public:
+    vector<string> transactions;
     BankAccount() {
         balance = 0.0;
     }
@@ -20,8 +23,13 @@ public:
     void deposit(double amount);
 
     void makePurchase(string item, double cost);
+    
+    double checkBalance();
 
-    void displayBalance();
+    double displayBalance() const;
+
+    void getTransactions();
+    void rewriteTransactions(vector<string>* transactions);
 
     void saveTransaction(string type, double amount);
 };

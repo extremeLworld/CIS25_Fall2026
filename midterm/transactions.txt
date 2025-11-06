@@ -1,6 +1,3 @@
-Deposit: $1
-Deposit: $1
-Deposit: $1
-Deposit: $30
-Purchase - Coffee: $4.5
-Purchase - Book: $25
+2.000000
+Deposit: $5.000000
+Purchase - Coffee: $4.500000
