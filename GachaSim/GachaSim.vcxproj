@@ -124,9 +124,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CardsetInfo.h" />
+    <ClInclude Include="Inventory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CardsetInfo.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
