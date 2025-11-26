@@ -1,5 +1,4 @@
-Module 9 README
+Week 13 README
 
-This program has you entering in names for items and their quantities, then storing them in an array (inventory).
-There's a menu that has options for choosing whether to display all the inventory entries or searching for one.
-If you want to search for an entry, it should be able to return it if you type in a bit of the string (it's case sensitive though.)
+This program utilizes overrides and class inheritance. Essentially, all the classes inherit off of User and use its accessLevel() function. 
+Each class defines the function differently, so it overrides the original one. You can see the result of it when you run the program.
