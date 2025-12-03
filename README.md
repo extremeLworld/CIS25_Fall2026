@@ -1,4 +1,4 @@
-Week 13 README
+Week 14 README
 
-This program utilizes overrides and class inheritance. Essentially, all the classes inherit off of User and use its accessLevel() function. 
-Each class defines the function differently, so it overrides the original one. You can see the result of it when you run the program.
+This program shows how constructors and destructors in classes work. When you fill in the parameters of the class constructor, it is called.
+At the very end of the program when all functions have been called, the destructor is called.
