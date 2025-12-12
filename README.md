@@ -1,4 +1,5 @@
-Week 14 README
+Week 15 README
 
-This program shows how constructors and destructors in classes work. When you fill in the parameters of the class constructor, it is called.
-At the very end of the program when all functions have been called, the destructor is called.
+This program reads from a CSV with information from the site myanimelist.net.\
+It is read by finding the location of the comma, then putting the value between the front of the line and the location into a vector.\
+Then the selected columns are displayed. Some values are formatted weirdly, so they might not show up properly when printed.
