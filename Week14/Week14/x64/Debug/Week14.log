@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\annac\Documents\GitHub\CIS25_Fall2026\Week14\main.cpp(21,32): warning C4305: 'argument': truncation from 'double' to 'float'
-  Week14.vcxproj -> C:\Users\annac\Documents\GitHub\CIS25_Fall2026\Week14\x64\Debug\Week14.exe
